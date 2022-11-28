@@ -14,7 +14,7 @@ To build the Microservice first we need to have a VM, select `ubuntu 16.04` on t
 
 ![3 maven installation commands](https://user-images.githubusercontent.com/58173938/204171809-bb651a87-a707-4bb3-8ecc-1a66587824fc.png)
 
-### Create a new directory for the project and execute below `Maven goal`
+### Create a new directory for the project and execute below Maven goal
 
 You may change the groupid, artifactid, version if you want.
 
@@ -26,6 +26,12 @@ mvn archetype:generate -DgroupId=com.mohan.practice -DartifactId=mohanservices
 ### After the build completed this is going to been seen 
 
 ![4 maven](https://user-images.githubusercontent.com/58173938/204174058-fc6e6594-fd9c-4545-b1f3-ac7a951af01f.png)
+
+### As we can see now the generate build is created as same as the artifictid
+
+> To see the tree structure, install the package `sudo apt install tree`
+
+![5 maven](https://user-images.githubusercontent.com/58173938/204183401-709bc350-f495-4b74-bd76-d904a6f3a115.png)
 
 ## ❤ Show your support
 
