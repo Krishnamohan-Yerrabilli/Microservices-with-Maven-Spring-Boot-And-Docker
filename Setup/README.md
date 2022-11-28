@@ -1,4 +1,4 @@
-# Setup
+# Provision
 
 To build the Microservice first we need to have a VM, select `ubuntu 16.04` on top of that we install our dependencies which we need
 
