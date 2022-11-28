@@ -82,3 +82,18 @@ Let’s add a plugin for building artifacts.
 
 > An artifact is an element that a project can either use or produce. In Maven terminology, an artifact is an output generated after a Maven project build.
 
+```
+<build>
+  <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <version>${spring.boot.maven.plugin.version}</version>
+      </plugin>
+    </plugins>
+  </pluginManagement>
+</build>
+```
+
+
