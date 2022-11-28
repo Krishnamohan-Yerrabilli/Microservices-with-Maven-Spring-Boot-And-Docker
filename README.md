@@ -41,7 +41,7 @@ For this context im using intellij-community-edition
 
 ![maven6](https://user-images.githubusercontent.com/58173938/204202379-729d3cc7-1860-44d2-b7f9-a15f2e0c0280.png)
 
-### Open the pom.xml file. Leave the properties and erase the dependencies
+### Open the pom.xml file Leave the properties and erase the dependencies.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
