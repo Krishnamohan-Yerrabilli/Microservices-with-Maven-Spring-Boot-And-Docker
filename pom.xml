@@ -23,5 +23,19 @@
          <spring.boot.dependencies.version>2.5.7</spring.boot.dependencies.version>
              
     </properties> 
+         
+<dependencyManagement>
+         
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-dependencies</artifactId>
+      <version>${spring.boot.dependencies.version}</version>
+      <scope>import</scope>
+      <type>pom</type>
+    </dependency>
+  </dependencies>
+         
+</dependencyManagement>
 
 </project>
