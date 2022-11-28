@@ -9,7 +9,20 @@
     <artifactId>mohanservice</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+<!-- This are some manditory dependecies -->         
+         
     <dependencies>
+             
+         <dependency>
+             <groupId>org.projectlombok</groupId>
+             <artifactId>lombok</artifactId>
+         </dependency>
+           
+         <dependency>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-starter-test</artifactId>
+         </dependency>
+             
     </dependencies>
 
     <properties>
@@ -38,6 +51,5 @@
          
 </dependencyManagement>
          
-
 
 </project>
