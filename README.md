@@ -1,7 +1,8 @@
 # Microservices-with-Maven-Spring_Boot-And-Docker
 In this repo we will learn how to use Spring Boot to create a microservice that connects to a PostgreSQL database running on Docker.
 
-### Open your terminal its easy to provision our packages and libraries 
+### Open your terminal its easy to provision our packages and libraries (here your seeing an vm, for further intellij installation purpose)
+you need to do all your work in your local machine so upcoming installations will be install in lm
 
 ![2 maven ](https://user-images.githubusercontent.com/58173938/204171631-404a2b93-9f75-400b-a2fe-2980aa7e7e6f.png)
 
