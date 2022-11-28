@@ -14,6 +14,16 @@ To build the Microservice first we need to have a VM, select `ubuntu 16.04` on t
 
 ![3 maven installation commands](https://user-images.githubusercontent.com/58173938/204171809-bb651a87-a707-4bb3-8ecc-1a66587824fc.png)
 
+### Create a new directory for the project and execute below `Maven goal`
+
+You may change the groupid, artifactid, version if you want.
+
+```
+mvn archetype:generate -DgroupId=com.mohan.practice -DartifactId=mohanservices 
+-DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+```
+
 ## ❤ Show your support
 
 Give a ⭐️ if this project helped you, Happy learning!
