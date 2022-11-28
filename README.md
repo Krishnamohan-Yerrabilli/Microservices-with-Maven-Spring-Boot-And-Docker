@@ -22,7 +22,11 @@ mvn archetype:generate -DgroupId=com.mohan.practice -DartifactId=mohanservices
 
 ![4 maven](https://user-images.githubusercontent.com/58173938/204174058-fc6e6594-fd9c-4545-b1f3-ac7a951af01f.png)
 
+### As we can see now the generate build is created as same as the artifictid
 
+> To see the tree structure, install the package `sudo apt install tree`
+
+![5 maven](https://user-images.githubusercontent.com/58173938/204183401-709bc350-f495-4b74-bd76-d904a6f3a115.png)
 
 ### Install intellij on your local machine
 
