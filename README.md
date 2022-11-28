@@ -76,4 +76,9 @@ New Properties for plugins and dependency management
         <spring.boot.maven.plugin.version>2.5.7</spring.boot.maven.plugin.version>
         <spring.boot.dependencies.version>2.5.7</spring.boot.dependencies.version>
  </properties>
+ 
 ```
+Let’s add a plugin for building artifacts.
+
+> An artifact is an element that a project can either use or produce. In Maven terminology, an artifact is an output generated after a Maven project build.
+
