@@ -100,5 +100,7 @@ Tap on maven on left side of the window and reload
 
 ![dependencies](https://user-images.githubusercontent.com/58173938/204226069-1557fa6a-341e-4551-a342-bb0e33cba1c1.png)
 
+## ❤ Show your support
 
+Give a ⭐️ if this project helped you, Happy learning!
 
