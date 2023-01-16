@@ -14,7 +14,7 @@ you need to do all your work in your local machine so upcoming installations wil
 
 You may change the groupid, artifactid, version if you want.
 
-```
+```s
 mvn archetype:generate -DgroupId=com.mohan.practice -DartifactId=mohanservices 
 -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
 
@@ -43,7 +43,7 @@ For this context im using intellij-community-edition
 
 ### Open the pom.xml file Leave the properties and erase the dependencies.
 
-```
+```s
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -68,7 +68,7 @@ For this context im using intellij-community-edition
 
 New Properties for plugins and dependency management
 
-```
+```s
  <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>19</maven.compiler.source>
@@ -82,7 +82,7 @@ Let’s add a plugin for building artifacts.
 
 > An artifact is an element that a project can either use or produce. In Maven terminology, an artifact is an output generated after a Maven project build.
 
-```
+```s
 <build>
   <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
     <plugins>
