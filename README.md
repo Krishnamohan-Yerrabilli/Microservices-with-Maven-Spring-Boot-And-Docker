@@ -95,6 +95,7 @@ Let’s add a plugin for building artifacts.
   </pluginManagement>
 </build>
 ```
+
 As we can see the dependencies are added to the parent module, if you can't able to see it
 Tap on maven on left side of the window and reload
 
